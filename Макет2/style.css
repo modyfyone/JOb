@@ -1,0 +1,430 @@
+* {
+    margin: 0 auto;
+}
+@font-face {
+font-family: socialico;
+
+    src: url(../Макет2/Fonts/Socialico.ttf);
+}
+.container {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 1280px;
+}
+
+.main {
+    border: 2px solid black;
+}
+
+.header-bg {
+    background-color: #445162;
+    height: 323px;
+    padding: 50px;
+}
+
+.productName {
+    float: left;
+    height: 44px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT", "sans-serif";
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.ProductNameImg {
+    float: right;
+}
+
+.headerlist {
+    float: left;
+    position: relative;
+    height: 127px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT", "sans-serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 51px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.headerlist li {
+    padding-left: 40px;
+    background-image: url(../Макет2/jpg/check\ icon.png);
+    background-repeat: no-repeat;
+    background-position: 2px;
+}
+
+.name {
+    height: 28px;
+    color: #445161;
+    font-family: "Arial MT", "sans-serif";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    float: left;
+}
+
+.aboutProduct {
+    width: 254px;
+    height: 28px;
+    color: #445161;
+    font-family: "Arial MT", "sans-serif";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.aboutProductImg {
+    float: right;
+}
+
+.productText {
+    width: 653px;
+    height: 60px;
+    color: #333333;
+    font-family: "Arial MT", "sans-serif";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.block1 {
+    height: 323px;
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.block2 {
+    background-color: #f5f5f5;
+    height: 323px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block2 ul li {
+    content: "";
+    float: left;
+    margin-bottom: 25px;
+    list-style-type: none;
+    padding-left: 35px;
+    background-image: url(../Макет2/jpg/plus\ icon.png);
+    background-repeat: no-repeat;
+    width: 526px;
+    height: 63px;
+    line-height: 24px;
+}
+
+.block2 ul li:nth-child(even) {
+    content: "";
+    margin-left: 64px;
+}
+
+.blockName {
+    text-align: center;
+    color: #445161;
+    font-family: "Arial MT", "sans-serif";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 29px;
+}
+
+.block3 {
+    background-color: white;
+    padding: 50px;
+    height: 487px;
+}
+
+.ScrImg {
+    float: left;
+    padding-right: 15px;
+}
+
+.scrinshots {
+    float: left;
+    padding-left: 16px;
+    margin-bottom: 30px;
+}
+
+.ScrName {
+    height: 23px;
+    color: #445161;
+    font-family: "Arial MT", "sans-serif";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.ScrCont {
+    width: 359px;
+    height: 108px;
+    color: #333333;
+    font-family: "Arial MT", "sans-serif";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 200px;
+}
+
+.block4 {
+    background-color: #f5f5f5;
+    float: left;
+    padding: 50px;
+}
+
+.reviews {
+    width: 574px;
+    height: 121px;
+    float: left;
+    padding-bottom: 24px;
+}
+
+.imageReviews {
+    margin-right: 43px;
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-radius: 50%;
+    float: left;
+}
+
+.textReviews {
+    width: 436px;
+    height: 64px;
+    color: #333333;
+    font-family: "Arial - Italic MT", "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    background-image: url(../Макет2/jpg/bg_review.png);
+
+    width: 483px;
+    height: 121px;
+    margin-left: 90px
+}
+
+.agent {
+    /* Style for "Lourens S." */
+    height: 10px;
+    color: #989898;
+    font-family: "Arial MT", "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 10px;
+}
+
+.block4 .reviews:nth-child(odd) {
+    padding-left: 25px;
+}
+
+.BuyItNow {
+    display: flex;
+    align-items: flex-end;
+    padding: 50px;
+}
+
+.ItemBuy1 {
+    width: 300px;
+    height: 306px;
+    background-color: #445162;
+    border: 1px solid #445162;
+    border-radius: 10px;
+}
+
+.ItemBuy2 {
+    width: 300px;
+    height: 404px;
+    background-color: #445162;
+    border: 1px solid #445162;
+    border-radius: 10px;
+}
+
+.ItemBuy3 {
+    width: 300px;
+    height: 499px;
+    background-color: #445162;
+    border: 1px solid #445162;
+    border-radius: 10px;
+}
+
+.itemName {
+    /* Style for "Standart" */
+    width: 90px;
+    height: 18px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.bg-price {
+    /* Style for "bg-price" */
+    background-color: white;
+    width: 300px;
+    height: 71px;
+    outline: 1px solid #445162;
+    margin-top: 17px;
+}
+
+.price {
+    width: 87px;
+    height: 35px;
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 18px;
+}
+
+.itemList {
+    margin-top: 19px;
+    height: 182px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bg-button {
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-top: 19px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.buttonBuy, a {
+    /* Style for "BUY" */
+    width: 37px;
+    height: 13px;
+    color: #445161;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding-top: 14px;
+    text-decoration: none;
+}
+
+.bg-button:hover {
+    box-shadow: inset -2px -2px #445162;
+}
+
+.footer {
+    /* Style for "Footer" */
+    width: 1280px;
+    height: 509px;
+    background-color: #445162;
+}
+
+.blockNameContacts {
+    /* Style for "Contacts" */
+    width: 117px;
+    height: 22px;
+    color: #ffffff;
+    font-family: "Arial MT", "sans-serif";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 53px;
+}
+
+.formContacts {
+    margin-top: 31px;
+    float: left;
+    margin-left: 249px;
+}
+
+input, textarea {
+    width: 500px;
+    height: 40px;
+    background-color: #ffffff;
+    display: block;
+    border-radius: 2%;
+    margin-bottom: 15px;
+    color: #445162;
+    font-family: "Arial MT", "sans-serif";
+    padding-left: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 500px;
+    height: 170px;
+    background-color: #ffffff;
+    resize: none;
+}
+
+.contactList {
+    width: 240px;
+    float: left;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 30px;
+}
+
+.skype {
+
+    background: url(../Макет2/jpg/skype_icon.png) no-repeat left center;
+    padding-left: 30px;
+}
+
+.icq {
+
+    background: url(../Макет2/jpg/icq_icon.png) no-repeat left center;
+    padding-left: 30px;
+}
+
+.email {
+
+    background: url(../Макет2/jpg/email_icon.png) no-repeat left center;
+    padding-left: 30px;
+}
+
+.phone {
+
+    background: url(../Макет2/jpg/phone_icon.png) no-repeat left center;
+    padding-left: 30px;
+}
+.socialIco {
+width: 240px;
+height: 42px;
+color: #ffffff;
+font-family: Socialico;
+font-size: 60px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 1.5px;
+}
+.contactList div:not(.socialIco) {
+    margin-bottom: 15px;
+}
+.footerEnd {
+width: 1280px;
+height: 3186px;
+width: 284px;
+height: 11px;
+color: #445162;
+font-family: "Arial MT";
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+/* Text style for "C, opyrigh" */
+letter-spacing: 0.3px;
+}
